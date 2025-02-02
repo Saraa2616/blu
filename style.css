@@ -15,7 +15,6 @@ h4 {
 
 details {
     margin-bottom: 10px;
-    font-size: 12px;
 }
 
 summary {
@@ -52,6 +51,7 @@ ul {
 li {
     margin: 5px 0;
     color: #333333;
+    font-size: 12px;
 }
 
 
