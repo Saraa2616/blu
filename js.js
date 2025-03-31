@@ -126,6 +126,4 @@ const data = {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    renderFAQ(data);
-});
+  renderFAQ(data);
