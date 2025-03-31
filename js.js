@@ -95,11 +95,11 @@ const data = {
   };
 
   function renderFAQ(data) {
-      const faqContainer = document.getElementById("questions");
+      const faqContainer = document.getElementById("faq");
 
       data.questions.forEach(item => {
-          const details = document.createElement("question");
-          const summary = document.createElement("answerText");
+          const details = document.createElement("details");
+          const summary = document.createElement("summary");
           summary.textContent = item.question;
           
           details.appendChild(summary);
