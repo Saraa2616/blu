@@ -1,13 +1,13 @@
 
 body {
-    background-color: #F6f6f6; 
+    background-color: #ffffff; 
     color: #333333; 
     font-family: "Overpass", sans-serif;
     margin: 20px;
 }
 
 
-h4 {
+h2 {
     color: #333333; 
     font-weight: 600;
 }
@@ -19,12 +19,12 @@ details {
 
 summary {
     cursor: pointer;
-    background-color: #F6f6f6; 
+    background-color: #ffffff; 
     padding: 10px;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 15px;
     transition: background-color 0.3s;
-    font-weight: 400;
+    font-weight: 600;
 
 }
 
@@ -33,12 +33,12 @@ summary:hover {
 }
 
 summary:active {
-    background-color: #F6f6f6; 
+    background-color: #Ffffff; 
 }
 
 p {
     margin: 5px 0;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
     color: #333333;
 }
@@ -46,18 +46,16 @@ p {
 
 ul {
     padding-left: 20px;
-    font-size: 12px !important;
 }
 
 li {
     margin: 5px 0;
     color: #333333;
-    font-size: 12px !important;
 }
 
 
 details[open] summary {
-    background-color: #f6f6f6; 
+    background-color: #ffffff; 
     color: #333333;
 }
 .highlight{
