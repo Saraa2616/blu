@@ -95,23 +95,25 @@ const data = {
   };
 
  function renderFAQ(data) {
-    const faqContainer = document.getElementById("faq"); // "questions" биш "faq" байх ёстой
+    const faqContainer = document.getElementById("faq"); // Ensure it's rendering to the correct div
 
     data.questions.forEach(item => {
-        const details = document.createElement("details");
-        const summary = document.createElement("summary");
+        const details = document.createElement("details"); // Create details element
+        const summary = document.createElement("summary"); // Create summary element for the question
         summary.textContent = item.question;
         details.appendChild(summary);
 
+        // Handle answerText (can be an array or a string)
         const answerTextArray = Array.isArray(item.answerText) ? item.answerText : [item.answerText];
 
         answerTextArray.forEach(text => {
             const paragraph = document.createElement("p");
-            const modifiedText = text.replace(/([^\.]*Анхааруулга[^\.]*\.)/gi, '<span class="highlight">$1</span>');
+            const modifiedText = text.replace(/([^\.]*Анхааруулга[^\.]*\.)/gi, '<span class="highlight">$1</span>'); // Highlight warning
             paragraph.innerHTML = modifiedText;
             details.appendChild(paragraph);
         });
 
+        // If there are answers in list form, add them
         if (item.answer.length > 0) {
             const answerList = document.createElement("ul");
             item.answer.forEach(answer => {
@@ -122,8 +124,8 @@ const data = {
             details.appendChild(answerList);
         }
 
-        faqContainer.appendChild(details);
+        faqContainer.appendChild(details); // Append to FAQ container
     });
 }
 
-  renderFAQ(data);
+renderFAQ(data);
