@@ -1,6 +1,6 @@
 
 body {
-    background-color: #F1F5F9; 
+    background-color: #000000; 
     color: #334155; 
     font-family: "Manrope";
     margin: 20px;
@@ -63,6 +63,7 @@ details[open] summary {
     color:#FF5A56;
     font-style: italic;
 }
+
 
 
 
