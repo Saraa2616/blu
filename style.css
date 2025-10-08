@@ -1,15 +1,15 @@
 
 body {
     background-color: #ffffff; 
-    color: #333333; 
+    color: #334155; 
     font-family: "Overpass", sans-serif;
     margin: 20px;
 }
 
 
 h2 {
-    color: #333333; 
-    font-weight: 600;
+    color: #334155; 
+    font-weight: 400;
 }
 
 
@@ -23,13 +23,13 @@ summary {
     padding: 10px;
     font-size: 16px;
     border-radius: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     font-weight: 600;
 
 }
 
 summary:hover {
-    background-color: #f6f6f6; 
+    background-color: #ffffff; 
 }
 
 summary:active {
@@ -40,7 +40,7 @@ p {
     margin: 5px 0;
     font-size: 14px;
     line-height: 1.5;
-    color: #333333;
+    color: #334155;
 }
 
 
@@ -50,16 +50,17 @@ ul {
 
 li {
     margin: 5px 0;
-    color: #333333;
+    color: #334155;
 }
 
 
 details[open] summary {
     background-color: #ffffff; 
-    color: #333333;
+    color: #334155;
 }
 .highlight{
     color:#FF5A56;
     font-style: italic;
 }
+
 
