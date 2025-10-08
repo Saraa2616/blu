@@ -9,6 +9,7 @@ body {
 
 h2 {
     color: #334155; 
+    font-size: 12px;
     font-weight: 200;
 }
 
@@ -62,6 +63,7 @@ details[open] summary {
     color:#FF5A56;
     font-style: italic;
 }
+
 
 
 
