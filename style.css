@@ -1,6 +1,6 @@
 
 body {
-    background-color: #ffffff; 
+    background-color: #F1F5F9; 
     color: #334155; 
     font-family: "Manrope";
     margin: 20px;
@@ -19,21 +19,21 @@ details {
 
 summary {
     cursor: pointer;
-    background-color: #ffffff; 
+    background-color: #F1F5F9; 
     padding: 10px;
     font-size: 12px;
     border-radius: 16px;
     transition: background-color 0.1s;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
 summary:hover {
-    background-color: #ffffff; 
+    background-color: #F1F5F9; 
 }
 
 summary:active {
-    background-color: #Ffffff; 
+    background-color: #F1F5F9; 
 }
 
 p {
@@ -55,13 +55,14 @@ li {
 
 
 details[open] summary {
-    background-color: #ffffff; 
+    background-color: #F1F5F9; 
     color: #334155;
 }
 .highlight{
     color:#FF5A56;
     font-style: italic;
 }
+
 
 
 
