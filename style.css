@@ -2,14 +2,14 @@
 body {
     background-color: #ffffff; 
     color: #334155; 
-    font-family: "Overpass", sans-serif;
+    font-family: "Manrope";
     margin: 20px;
 }
 
 
 h2 {
     color: #334155; 
-    font-weight: 400;
+    font-weight: 200;
 }
 
 
@@ -21,8 +21,8 @@ summary {
     cursor: pointer;
     background-color: #ffffff; 
     padding: 10px;
-    font-size: 16px;
-    border-radius: 15px;
+    font-size: 12px;
+    border-radius: 16px;
     transition: background-color 0.1s;
     font-weight: 600;
 
@@ -38,7 +38,7 @@ summary:active {
 
 p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
     color: #334155;
 }
@@ -62,5 +62,6 @@ details[open] summary {
     color:#FF5A56;
     font-style: italic;
 }
+
 
 
