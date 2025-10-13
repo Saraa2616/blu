@@ -47,11 +47,13 @@ p {
 
 ul {
     padding-left: 20px;
+    font-size: 12px
 }
 
 li {
     margin: 5px 0;
     color: #334155;
+    font-size: 12px
 }
 
 
@@ -63,6 +65,7 @@ details[open] summary {
     color:#FF5A56;
     font-style: italic;
 }
+
 
 
 
